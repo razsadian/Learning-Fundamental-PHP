@@ -1,4 +1,4 @@
-#covered a lot of material in this lesson, so let’s review:
+## covered a lot of material in this lesson, so let’s review (LESSON 1):
 
 - Strings are collections of text that the computer treats as a single piece of data.
 - A string can be any length and contain any letters, numbers, symbols, or spaces surrounded by quotation marks.
@@ -22,3 +22,17 @@ example :
 - $message = "$favorite_language is by far our favorite language.";
 - $message .= " It's yours now too, right?";
 - echo "\n" . $message . " Right?!";
+
+## this lesson, we learned all about using numbers in PHP. Let’s review what we covered:
+
+- PHP has two number data types: integers and floating point numbers
+- We can use arithmetic operators for performing math operations:
+
+## Operation: ## Example:
+
+- Addition + - echo 1 + 4.5; // Prints: 5.5
+- Subtraction - - echo 9 - 1; // Prints: 8
+- Multiplication _ - echo -1.9 _ 2.9; // Prints: -5.51
+- Division / - echo 9 / 1; // Prints: 9
+- Modulo % - echo 11 % 3; // Prints: 2
+- Exponentiation ** - echo 8**2; // Prints: 64
