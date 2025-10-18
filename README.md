@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## covered a lot of material in this lesson, so let’s review (LESSON 1):
+=======
+## covered a lot of material in this lesson, so let’s review:
+>>>>>>> 073391001a1d3f883650d05a168c18bfa2b3f3e2
 
 - Strings are collections of text that the computer treats as a single piece of data.
 - A string can be any length and contain any letters, numbers, symbols, or spaces surrounded by quotation marks.
@@ -13,7 +17,7 @@
 - Operations to the right of the assignment operator will be evaluated before assignment takes place.
 - The concatenating assignment operator (.=) is a shorthand notation for reassigning a string variable to its current value appended with another string value.
 
-example :
+## example :
 
 - echo "Hello, Learner!";
 - echo "\nWe hope you enjoyed this lesson.";
