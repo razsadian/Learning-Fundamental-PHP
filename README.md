@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ## covered a lot of material in this lesson, so let’s review (LESSON 1):
-=======
-## covered a lot of material in this lesson, so let’s review:
->>>>>>> 073391001a1d3f883650d05a168c18bfa2b3f3e2
 
 - Strings are collections of text that the computer treats as a single piece of data.
 - A string can be any length and contain any letters, numbers, symbols, or spaces surrounded by quotation marks.
@@ -17,7 +13,7 @@
 - Operations to the right of the assignment operator will be evaluated before assignment takes place.
 - The concatenating assignment operator (.=) is a shorthand notation for reassigning a string variable to its current value appended with another string value.
 
-## example :
+example :
 
 - echo "Hello, Learner!";
 - echo "\nWe hope you enjoyed this lesson.";
@@ -27,16 +23,8 @@
 - $message .= " It's yours now too, right?";
 - echo "\n" . $message . " Right?!";
 
-## this lesson, we learned all about using numbers in PHP. Let’s review what we covered:
+## this lesson, we learned all about using numbers in PHP. Let’s review what we covered (LESSON 2):
 
 - PHP has two number data types: integers and floating point numbers
-- We can use arithmetic operators for performing math operations:
-
-## Operation: ## Example:
-
-- Addition + - echo 1 + 4.5; // Prints: 5.5
-- Subtraction - - echo 9 - 1; // Prints: 8
-- Multiplication _ - echo -1.9 _ 2.9; // Prints: -5.51
-- Division / - echo 9 / 1; // Prints: 9
-- Modulo % - echo 11 % 3; // Prints: 2
-- Exponentiation ** - echo 8**2; // Prints: 64
+- Operations have an order of precedence meaning that certain types of operations in a chain will be evaluated before others: first evaluated will be any operation wrapped in parenthesis (()), next exponents (**) then multiplication * and division (/), and finally addition (+) and subtraction (-). The acronym PEMDAS can be a helpful way of remembering the order.
+- We can assign number values to variables and then perform numerical operations with them.
