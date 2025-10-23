@@ -26,5 +26,23 @@ example :
 ## this lesson, we learned all about using numbers in PHP. Let’s review what we covered (LESSON 2):
 
 - PHP has two number data types: integers and floating point numbers
-- Operations have an order of precedence meaning that certain types of operations in a chain will be evaluated before others: first evaluated will be any operation wrapped in parenthesis (()), next exponents (**) then multiplication * and division (/), and finally addition (+) and subtraction (-). The acronym PEMDAS can be a helpful way of remembering the order.
+- Operations have an order of precedence meaning that certain types of operations in a chain will be evaluated before others: first evaluated will be any operation wrapped in parenthesis (()), next exponents (\*_) then multiplication _ and division (/), and finally addition (+) and subtraction (-). The acronym PEMDAS can be a helpful way of remembering the order.
 - We can assign number values to variables and then perform numerical operations with them.
+
+## SQL INJECTION
+
+- Write an equivalent prepared statement
+- Knowing unsafe Query to avoid attacker
+- Making PREPARE STATEMENT(safety query or make placeholder), UPDATE STATEMENT, DELETE STATEMENT, then execute them all.
+
+## Covered intermediate php
+
+- Databases store data for PHP applications.
+- PDO (PHP Data Object) lets us write code that will work with many common database systems.
+- We write queries by inserting SQL into the query() method.
+- SQL queries with user-defined parameters (variables) are vulnerable to SQL injection.
+- We use prepared statements to prevent SQL injection.
+- Prepared statements use the prepare() and execute() methods and send SQL commands and data separately.
+- For exception handling, we wrap code in a try/catch block.
+- We use exception handling to catch and handle exceptions when our program throws them.
+- We can use methods on the exception object to troubleshoot exceptions.
